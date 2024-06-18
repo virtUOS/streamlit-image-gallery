@@ -4,7 +4,7 @@ Streamlit component for displaying multiple images in a grid.
 
 ## Example
 
-![img.png](docs/example.png)
+![example](https://github.com/virtUOS/streamlit-gallery/assets/44410838/678bb69a-a20b-4749-bdb7-79b3eeec1ee0)
 
 ## Installation instructions
 
