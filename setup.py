@@ -6,14 +6,14 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
-    name="streamlit-gallery",
+    name="streamlit-image-gallery",
     version="0.0.1",
     author="Dennis Benz",
     author_email="debenz@uni-osnabrueck.de",
     description="Streamlit component for displaying multiple images in a grid",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/virtUOS/streamlit-gallery",
+    url="https://github.com/virtUOS/streamlit-image-gallery",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[],

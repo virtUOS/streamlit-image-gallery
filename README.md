@@ -1,15 +1,15 @@
-# streamlit-gallery
+# streamlit-image-gallery
 
 Streamlit component for displaying multiple images in a grid.
 
 ## Example
 
-![example](https://github.com/virtUOS/streamlit-gallery/assets/44410838/678bb69a-a20b-4749-bdb7-79b3eeec1ee0)
+![example](https://github.com/virtUOS/streamlit-image-gallery/assets/44410838/678bb69a-a20b-4749-bdb7-79b3eeec1ee0)
 
 ## Installation instructions
 
 ```sh
-pip install streamlit-gallery
+pip install streamlit-image-gallery
 ```
 
 ## Usage instructions
@@ -17,7 +17,7 @@ pip install streamlit-gallery
 ```python
 import streamlit as st
 
-from streamlit_gallery import streamlit_gallery
+from streamlit_image_gallery import streamlit_image_gallery
 
 images = [
   {
@@ -44,14 +44,14 @@ images = [
 
 st.subheader("Image gallery")
 
-streamlit_gallery(images=images)
+streamlit_image_gallery(images=images)
 ```
 
 ## Development instructions
 
 ### Frontend
 
-1. `cd streamlit_gallery/frontend`
+1. `cd streamlit_image_gallery/frontend`
 2. `npm install`
 3. `npm run start`
 
@@ -60,4 +60,4 @@ streamlit_gallery(images=images)
 1. `python -m venv .venv`
 2. `pip install -r requirements.txt`
 3. `pip install -e .`
-4. `streamlit run streamlit_gallery/example.py`
+4. `streamlit run streamlit_image_gallery/example.py`

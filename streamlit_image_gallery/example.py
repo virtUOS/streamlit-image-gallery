@@ -1,6 +1,6 @@
 import streamlit as st
 
-from streamlit_gallery import streamlit_gallery
+from streamlit_image_gallery import streamlit_image_gallery
 
 images = [
   {
@@ -27,4 +27,4 @@ images = [
 
 st.subheader("Image gallery")
 
-streamlit_gallery(images=images)
+streamlit_image_gallery(images=images)

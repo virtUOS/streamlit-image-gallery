@@ -5,17 +5,17 @@ _RELEASE = False
 
 if not _RELEASE:
     _component_func = components.declare_component(
-        "streamlit_gallery",
+        "streamlit_image_gallery",
         url="http://localhost:3001",
     )
 else:
     parent_dir = os.path.dirname(os.path.abspath(__file__))
     build_dir = os.path.join(parent_dir, "frontend/build")
-    _component_func = components.declare_component("streamlit_gallery", path=build_dir)
+    _component_func = components.declare_component("streamlit_image_gallery", path=build_dir)
 
 
-def streamlit_gallery(images, max_width=400, gap=4, max_cols=2, max_rows=2, key=None):
-    """Create a new instance of "streamlit_gallery".
+def streamlit_image_gallery(images, max_width=400, gap=4, max_cols=2, max_rows=2, key=None):
+    """Create a new instance of "streamlit_image_gallery".
 
     The Gallery shows a grid of images. Images can be opened in a separate tab.
 

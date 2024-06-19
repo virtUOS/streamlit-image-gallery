@@ -1,1 +1,1 @@
-recursive-include streamlit_gallery/frontend/build *
+recursive-include streamlit_image_gallery/frontend/build *

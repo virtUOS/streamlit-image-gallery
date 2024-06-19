@@ -1,5 +1,5 @@
 {
-  "name": "streamlit_gallery",
+  "name": "streamlit_image_gallery",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,6 +37,6 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "react-scripts": "^5.0.1",
-    "typescript": "^5.4.5"
+    "typescript": "^4.9.5"
   }
 }
