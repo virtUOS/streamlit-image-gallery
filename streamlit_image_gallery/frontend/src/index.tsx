@@ -1,5 +1,4 @@
 import React from "react"
-import ReactDOM from "react-dom"
 import StreamlitGallery from "./StreamlitGallery";
 import { createRoot } from "react-dom/client";
 
