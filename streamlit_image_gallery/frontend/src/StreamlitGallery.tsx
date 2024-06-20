@@ -65,7 +65,17 @@ class StreamlitGallery extends StreamlitComponentBase {
 
   private openImage = (event: React.MouseEvent<HTMLImageElement>) => {
     const img = event.currentTarget;
-    window.open(img.src, '_blank');
+
+    if (img.src.startsWith('data:image')) {
+      // Handle data urls with base64 encoded data
+      const image = new Image();
+      image.src = img.src;
+
+      const w = window.open("", '_blank');
+      w!.document.body.innerHTML = image.outerHTML;
+    } else {
+      window.open(img.src, '_blank');
+    }
   }
 }
 
