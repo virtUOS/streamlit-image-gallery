@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
     name="streamlit-image-gallery",
-    version="0.0.1",
+    version="0.0.2",
     author="Dennis Benz",
     author_email="debenz@uni-osnabrueck.de",
     description="Streamlit component for displaying multiple images in a grid",
